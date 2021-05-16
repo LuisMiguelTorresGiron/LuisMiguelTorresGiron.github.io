@@ -1,0 +1,24 @@
+.primera{
+    position: s;
+}
+
+.segunda{
+
+}
+
+.tercera{
+
+}
+
+.cuarta{
+    position: absolute;
+    top: 30em;
+    right: 20em;
+    }
+    
+.quinto{
+    position: sticky; 
+    bottom: 50em;
+    right: 20em;
+
+}

@@ -7,7 +7,7 @@ h2,h3,h4{
     background-color: darkblue;
 }
 
-body{
+/*body{
     background-image: url(./g1.gif);
     background-repeat:no-repeat;
     background-position: center;
@@ -16,4 +16,6 @@ body{
 
 p.colortexto{
     color: darkred;
-}
+}/*
+
+

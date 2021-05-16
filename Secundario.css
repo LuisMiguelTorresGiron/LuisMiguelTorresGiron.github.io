@@ -6,6 +6,7 @@
     cursor: pointer;
 }
 .puntero{
+   
     border: 2em solid #0000FF;
     border-style: outset;
     border-color: #6f9f2f;
@@ -27,5 +28,22 @@
 }
 
 h2,h3,h4{
-    color: #f86f9b;
+    color: #f86f9b
+    
 }
+
+h1{
+    margin-right: 10% 10% 10% 10%;
+    border: 0.2em solid red ;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 3em;
+    /*position: sticky; bottom: 50em; right: 20em;*/
+}
+
+h2{
+    padding: 5%;
+    border: 0.5em solid #0000FF;
+    color: #00e21e;
+    font-style: italic;
+}
+
