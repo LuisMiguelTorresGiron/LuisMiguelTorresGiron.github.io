@@ -1,0 +1,16 @@
+/*Notas*/
+
+.uno {
+    margin: auto; width: 50%; border: 2em solid blue;
+}
+
+.dos {
+    text-align: center; border: 2em solid red;
+
+}
+img{
+    display: block; margin-left: auto; margin-right: auto; width: 30%;
+}
+.tres {
+    padding: 20em 0em; border: 2em solid green
+}
