@@ -7,7 +7,7 @@
 }
 .puntero{
    
-    border: 2em solid #0000FF;
+    border: 2em ridge #0000FF;
     border-style: outset;
     border-color: #6f9f2f;
 }

@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="inicio.js"></script>
+</head>
+<body>
+    <div id="datos"></div>
+    <script>
+        //Declara una variable tipo objeto con propiedades y metodos
+        var producto = {
+            codigo: 'A23F01',
+            nombre: 'Televisor',
+            precio: 2499.99,
+            colores: ['negro','plata'],
+            calcularIgv: function(){
+                return this.precio*0.19
+            }
+        };
+
+        document.getElementById('datos').innerHTML='Código: ' + producto.codigo + ' / Nombre: ' + producto.nombre
+            + ' / Precio: ' + producto.precio + ' / Colores: ' + producto.colores[0] + ', ' + producto.colores[1]
+            + ' / IGV: ' + producto.calcularIgv();
+    </script>
+
+    <h1>Formulario de Calculo de Frutas</h1>
+    <form action='javascript:cargarFruta(document.getElementsByName('nombreFruta')[0].value,
+                    document.getElementsByName('precioFruta')[0].value,
+                    document.getElementsByName('cantidadFruta')[0].value)'>
+
+        <label for="nombre">Ingrese el nombre</label>
+        <input type="text" id="nombreFruta"> <br>
+        <label for="precio">Ingrese el precio</label>
+        <input type="text" id="precioFruta"> <br>
+        <label for="cantidad">Ingrese cantidad</label>
+        <input type="text" id="cantidadFruta"> <br>
+        <input type="submit" value="Agregar Frutas" >
+    </form>
+    <div id="listaFrutas"></div>
+</body>
+</html>
