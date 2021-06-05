@@ -9,7 +9,7 @@
 </head>
 <body>
     <div id="datos"></div>
-    <script>
+    <!--<script>
         //Declara una variable tipo objeto con propiedades y metodos
         var producto = {
             codigo: 'A23F01',
@@ -24,20 +24,22 @@
         document.getElementById('datos').innerHTML='Código: ' + producto.codigo + ' / Nombre: ' + producto.nombre
             + ' / Precio: ' + producto.precio + ' / Colores: ' + producto.colores[0] + ', ' + producto.colores[1]
             + ' / IGV: ' + producto.calcularIgv();
-    </script>
+    </script>-->
+
 
     <h1>Formulario de Calculo de Frutas</h1>
-    <form action='javascript:cargarFruta(document.getElementsByName('nombreFruta')[0].value,
+    <form action="javascript:cargarFruta(document.getElementsByName('nombreFruta')[0].value,
                     document.getElementsByName('precioFruta')[0].value,
-                    document.getElementsByName('cantidadFruta')[0].value)'>
+                    document.getElementsByName('cantidadFruta')[0].value)"
 
+        
         <label for="nombre">Ingrese el nombre</label>
-        <input type="text" id="nombreFruta"> <br>
+        <input type="text" name="nombreFruta"> <br>
         <label for="precio">Ingrese el precio</label>
-        <input type="text" id="precioFruta"> <br>
+        <input type="text" name="precioFruta"> <br>
         <label for="cantidad">Ingrese cantidad</label>
-        <input type="text" id="cantidadFruta"> <br>
-        <input type="submit" value="Agregar Frutas" >
+        <input type="text" name="cantidadFruta"> <br>
+        <input type="submit" value="Agregar Fruta" >
     </form>
     <div id="listaFrutas"></div>
 </body>
