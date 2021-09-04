@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Carrito de Compras</title>
+    <script src="sesion30.js"></script>
+</head>
+<body onload="javascript: cargarListaProductos()">
+    <h1>Carrito de Compras</h>
+    <br>
+    <table id="tbl_listaProductos" border = '1'>
+        <thead>
+            <tr>
+                <th>Nombre</th>
+                <th>Precio</th> 
+                <th>Cantidad</th>
+                <th>Seleccionar</th>
+            </tr>
+        </thead>
+        <tbody>
+
+        </tbody>
+    </table>
+    <br> 
+    <button onclick="javascript: calcularTotal()">Calcular Total</button>
+    <div id="pago"></div>
+    <div id="advertencia"></div>
+</body>
+</html>

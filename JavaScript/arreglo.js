@@ -1,5 +1,5 @@
-function seleccionar(numJugador){
-    document.getElementById('JugadorSeleccionado').innerHTML = numJugador;
+function Seleccionar(numJugador) {
+    document.getElementById("JugadorSeleccionado").innerHTML = numJugador;
 
 }
 
@@ -7,12 +7,12 @@ function celdaSeleccionada(numCelda, numJugador){
     var operador = document.getElementById(numCelda).innerHTML;
 
 
-
+    //Evaluamos si la celda fue seleccionada previamente
     if (operador == 'x' || operador == 'o'){
         return;
     }
 
-
+    //Evaluamos quién es el jugador para asignar a su operador
     if (numJugador == 1){
         operador = 'x';
     } else{
@@ -55,7 +55,7 @@ function buscarGanador(numeroJugador) {
     }
     
     //Buscando jugada ganadoras
-    for (i = 0; i < jugadaGanadora.length(), i++) {
+    for (i = 0; i < jugadaGanadora.length(), i++){
         console.table(1)
     }
     
