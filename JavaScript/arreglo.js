@@ -55,9 +55,9 @@ function buscarGanador(numeroJugador) {
     }
     
     //Buscando jugada ganadoras
-    for (i = 0; i < jugadaGanadora.length(), i++){
+    for (i = 0; i < jugadaGanadora.length(), i++{
         console.table(1)
-    }
+    })
     
     [1,2,3] = element
     1 = numero
